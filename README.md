@@ -1,0 +1,1 @@
+💼 A full-stack automated invoice generator built using React (frontend), Spring Boot (backend), and MongoDB (database). This project allows users to create professional invoices with client details, itemized services, tax calculations, and PDF export functionality. Optional features include email delivery of invoices and payment status tracking.
