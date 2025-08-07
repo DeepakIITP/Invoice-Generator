@@ -1,0 +1,40 @@
+server:
+  port: 3510
+  servlet:
+    context-path: /api
+
+clerk:
+  issuer: clerk-issuer
+  jwk-url: jwk-url
+  webhook:
+    secret: webhook-secret
+
+spring:
+  servlet:
+    multipart:
+      max-file-size: 20MB
+      max-request-size: 20MB
+
+  application:
+    name: INVOICE-SERVICE
+
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration
+
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/invoicedb
+
+  mail:
+    host: your-host
+    port: your-port
+    username: username
+    password: password
+    protocol: smtp
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+          from: from-email
