@@ -64,7 +64,7 @@ function MainPage() {
                                     className="btn btn-sm p-0 border-0 bg-transparent"
                                     onClick={handleTitleEdit}
                                 >
-                                    <Pencil className="rext-primary" size={20} />
+                                    <Pencil className="text-primary" size={20} />
                                 </button>
                             </>
                         )}
