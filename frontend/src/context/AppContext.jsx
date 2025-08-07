@@ -13,6 +13,7 @@ const initialInvoiceData = {
     items: [{ name: "", qty: "", amount: "", description: "", total: 0 }],
     logo: "",
 };
+
 const baseUrl = "http://localhost:8080/api";
 export const AppContextProvider = ({ children }) => {
     const [invoiceTitle, setInvoiceTitle] = useState("New Invoice");
