@@ -351,7 +351,7 @@ function LandingPage() {
                     <Logo />
                     <p className="text-white fw-bold mt-2">QuickInvoice</p>
                     <p className="mb-0">
-                        &copy; {new Date().getFullYear()} Akhileswar. All Rights Reserved.
+                        &copy; {new Date().getFullYear()} Deepak Ashok Modi. All Rights Reserved.
                     </p>
                     <p className="mb-0 small">
                         Crafted with <i className="bi bi-heart-fill text-danger"></i> for
