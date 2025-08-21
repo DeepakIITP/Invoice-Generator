@@ -1,4 +1,5 @@
 📄 Automated Invoice Generator
+
 📌 Project Description
 
 The Automated Invoice Generator is a full-stack web application designed to simplify the process of creating and managing invoices for freelancers and small businesses. Users can input client details, itemized services, and tax rates, and the system automatically calculates totals and generates professional invoices in PDF format. The application also integrates with a database to store and manage invoice records, ensuring easy retrieval and tracking of payment status. With features like PDF export, responsive design, and optional email delivery, this project provides a practical solution that reduces manual effort and ensures accuracy in financial documentation.
@@ -31,35 +32,20 @@ Database: MongoDB (Mongoose / Spring Data)
 
 Other Tools: Axios, React Router, Clerk Auth, Lucide React icons
 
-📂 Project Structure
-InvoiceGenerator/
-│
-├── frontend/       # React + Vite frontend
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── services/
-│   │   └── App.jsx
-│   ├── package.json
-│
-├── backend/        # Spring Boot backend
-│   ├── src/main/java/com/invoice/
-│   │   ├── controller/
-│   │   ├── model/
-│   │   ├── repository/
-│   │   └── service/
-│   ├── pom.xml
-│
-└── README.md
-
 ⚙️ Installation & Setup
+
 🔹 Frontend (React + Vite)
+
 cd frontend
+
 npm install
+
 npm run dev
 
 🔹 Backend (Spring Boot)
+
 cd backend
+
 mvn spring-boot:run
 
 🔹 Database (MongoDB)
